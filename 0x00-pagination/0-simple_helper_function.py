@@ -4,6 +4,7 @@ A python script
 """
 from typing import Tuple
 
+
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """Retrieving the page size"""
     start_index = (page - 1) * page_size
